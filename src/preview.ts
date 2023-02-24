@@ -1,6 +1,6 @@
 import { OplantoFormat } from './oplanto-format';
 
-export class ProtocolPreview extends OplantoFormat {
+export class Preview extends OplantoFormat {
     id!: number;
     author!: number;
     coauthors!: Array<number>;
@@ -22,6 +22,7 @@ export class ProtocolPreview extends OplantoFormat {
     commentChannel!: string;
     cryptowallet!: string;
     lastUpdate!: number;
+    photoUrl!: string;
 
     private _rating!: number;
 

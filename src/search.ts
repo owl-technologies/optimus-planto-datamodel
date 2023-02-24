@@ -1,6 +1,6 @@
 import { OplantoFormat } from './oplanto-format';
-import { ProtocolPreview } from './protocol-preview';
+import { Preview } from './preview';
 
 export class Search extends OplantoFormat {
-    previews!: ProtocolPreview[];
+    previews!: Preview[];
   }

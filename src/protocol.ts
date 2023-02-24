@@ -2,6 +2,7 @@ import { OplantoFormat } from './oplanto-format';
 import { Step } from './step';
 
 export class Protocol extends OplantoFormat {
+  id!: number;
   descriptionChannel!: string;
   licenseChannel!: string;
   editorsChannel!: string;
